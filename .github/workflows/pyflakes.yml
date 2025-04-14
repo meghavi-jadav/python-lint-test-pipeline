@@ -1,5 +1,4 @@
 name: Lint Python Script
-
 on:
   push:
     branches: [main]
@@ -17,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.10' 
 
       - name: Install linter
         run: |
@@ -40,7 +39,7 @@ jobs:
       - name: Set up Pytest
         uses: actions/setup-python@v5
         with:
-          python-version: 3.10
+          python-version: '3.10' 
 
       - name: Install Dependencies
         run: |
