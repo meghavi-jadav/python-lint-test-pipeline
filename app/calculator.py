@@ -1,7 +1,11 @@
 """
 Calculator Module
 
-This module provides a basic calculator class with methods for addition, subtraction, multiplication, and division.
+This module provides a basic calculator class with methods for:
+- addition
+- subtraction
+- multiplication
+- division.
 """
 
 class Calculator:
