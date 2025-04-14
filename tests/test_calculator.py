@@ -2,7 +2,12 @@
 Test module for the Calculator class.
 """
 
+import sys
 import pytest
+
+# Adjust sys.path if necessary to include the 'app' package
+sys.path.insert(0, '../')
+
 from app.calculator import Calculator
 
 @pytest.fixture
