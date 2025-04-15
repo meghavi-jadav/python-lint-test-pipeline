@@ -48,4 +48,4 @@ jobs:
 
       - name: Run Test
         run: |
-          pytest
+          pytest app tests
